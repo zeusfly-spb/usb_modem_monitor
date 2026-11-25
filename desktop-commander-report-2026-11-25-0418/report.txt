@@ -1,0 +1,15 @@
+Desktop Commander diagnostics — 2026-11-25 04:18:53 (UTC+3)
+This file contains: versions, how Node runs (paths, with the home folder as ~), clock, network checks, the device id and whether sign-in data exists (yes/no), device status history.
+It does not contain: tokens, passwords, emails, the user name, tool arguments or results.
+
+Versions      Desktop Commander 0.3.4 · Node 24.22.2 · npm 11.19.1 · Windows 10 Pro (10.0.19045) x64
+Node          D:\Program Files\nodejs\node.exe (global install)
+Running       ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js (npx)
+MCP           not running
+Clock         device matches the server (within 1 s, from the server's Date header)
+Network       mcp.desktopcommander.app: DNS 7 ms · TLS 1319 ms · /api/mcp-info 5× 280/319/972 ms (min/median/max)
+              Supabase: DNS 0 ms · TLS 315 ms · reachable in 1480 ms · realtime websocket opened in 603 ms, heartbeat answered
+              Proxy: HTTPS_PROXY not set · HTTP_PROXY not set
+Device        id ceef3b10-7427-45d8-8cb8-0df78569880b · signed-in data: yes (access token: yes, refresh token: yes), saved 2026-11-25 01:12 UTC
+Settings      telemetry: on · client id: da59f918-46f6-44a2-9740-50d9ff48f54f  (lets us find this device's telemetry)
+Device log    6,618 lines from 2026-11-23 15:53 to 2026-11-25 01:18 UTC; last: "Shutdown sequence completed successfully"

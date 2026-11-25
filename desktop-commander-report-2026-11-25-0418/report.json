@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "createdAt": "2026-11-25T01:18:53.807Z",
+  "versions": {
+    "desktopCommander": "0.3.4",
+    "node": "24.22.2",
+    "npm": "11.19.1",
+    "os": {
+      "name": "Windows 10 Pro",
+      "release": "10.0.19045",
+      "arch": "x64"
+    },
+    "nodePath": "D:\\Program Files\\nodejs\\node.exe",
+    "nodeKind": "global install",
+    "entryPath": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js",
+    "runKind": "npx"
+  },
+  "clock": {
+    "serverAheadSeconds": -1
+  },
+  "network": {
+    "server": {
+      "host": "mcp.desktopcommander.app",
+      "dnsMs": 7,
+      "connect": {
+        "kind": "TLS",
+        "ms": 1319
+      },
+      "mcpInfo": {
+        "ms": [
+          972,
+          295,
+          280,
+          319,
+          361
+        ],
+        "statuses": [
+          200,
+          200,
+          200,
+          200,
+          200
+        ]
+      }
+    },
+    "supabase": {
+      "host": "Supabase",
+      "dnsMs": 0,
+      "connect": {
+        "kind": "TLS",
+        "ms": 315
+      },
+      "rest": {
+        "status": 401,
+        "ms": 1480
+      },
+      "realtime": {
+        "heartbeat": true,
+        "openedMs": 603,
+        "heartbeatMs": 192
+      }
+    },
+    "proxy": {
+      "httpsProxy": false,
+      "httpProxy": false
+    }
+  },
+  "device": {
+    "deviceJson": true,
+    "parses": true,
+    "id": "ceef3b10-7427-45d8-8cb8-0df78569880b",
+    "session": true,
+    "accessToken": true,
+    "refreshToken": true,
+    "savedAt": "2026-11-25T01:12:05.995Z"
+  },
+  "settings": {
+    "telemetryEnabled": true,
+    "clientId": "da59f918-46f6-44a2-9740-50d9ff48f54f"
+  },
+  "deviceLog": {
+    "files": 3,
+    "lines": 6618,
+    "first": "2026-11-23T15:53:40Z",
+    "last": "2026-11-25T01:18:37Z",
+    "lastText": "Shutdown sequence completed successfully"
+  },
+  "desktopCommanderMcp": {
+    "running": 0,
+    "since": null
+  }
+}

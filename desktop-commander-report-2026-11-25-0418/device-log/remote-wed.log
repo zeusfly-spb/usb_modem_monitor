@@ -1,0 +1,841 @@
+2026-11-25T00:01:53Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T00:01:53Z  Shutting down device...
+2026-11-25T00:01:53Z  Shutdown initiated for device: <id>
+2026-11-25T00:01:53Z  Stopping heartbeat...
+2026-11-25T00:01:53Z  Calling stopHeartbeat()
+2026-11-25T00:01:53Z  Heartbeat stopped
+2026-11-25T00:01:53Z  Unsubscribing from channel...
+2026-11-25T00:01:53Z  Calling channel.unsubscribe()
+2026-11-25T00:01:53Z  stopping MQTT transport
+2026-11-25T00:01:53Z  Marking device offline...
+2026-11-25T00:01:53Z  Calling setOffline() with deviceId: <id>
+2026-11-25T00:01:53Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T00:01:53Z  Spawning blocking update script: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\remote-device\scripts\blocking-offline-update.js
+2026-11-25T00:01:53Z  Using node executable: D:\Program Files\nodejs\node.exe
+2026-11-25T00:01:56Z  spawnSync completed, exit code: 2 signal: null
+2026-11-25T00:01:56Z  Timeout: Update took too long
+2026-11-25T00:01:56Z  DB update error: AbortError: This operation was aborted
+2026-11-25T00:01:56Z  Device offline update timed out
+2026-11-25T00:01:56Z  Draining pending config writes
+2026-11-25T00:01:56Z  Shutting down desktop integration...
+2026-11-25T00:01:56Z  Calling desktop.shutdown()
+2026-11-25T00:01:56Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T00:01:56Z  Closing MCP client...
+2026-11-25T00:01:56Z  Calling mcpClient.close() with timeout
+2026-11-25T00:01:56Z  MCP client closed
+2026-11-25T00:01:56Z  Closing MCP transport...
+2026-11-25T00:01:56Z  Calling mcpTransport.close() with timeout
+2026-11-25T00:01:56Z  MCP transport closed
+2026-11-25T00:01:56Z  Desktop Commander integration shutdown complete
+2026-11-25T00:01:56Z  Desktop integration shut down
+2026-11-25T00:01:56Z  Device shutdown complete
+2026-11-25T00:01:56Z  Shutdown sequence completed successfully
+2026-11-25T00:05:57Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T00:05:57Z  Platform: win32
+2026-11-25T00:05:57Z  Starting MCP Device...
+2026-11-25T00:05:57Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T00:05:57Z  Resolving MCP config...
+2026-11-25T00:05:57Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:05:57Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:05:57Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:05:57Z  MCP config: {
+2026-11-25T00:05:57Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T00:05:57Z  "args": [
+2026-11-25T00:05:57Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T00:05:57Z  ],
+2026-11-25T00:05:57Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T00:05:57Z  }
+2026-11-25T00:05:57Z  Creating StdioClientTransport
+2026-11-25T00:05:57Z  Creating MCP Client
+2026-11-25T00:05:57Z  Connecting MCP client to transport
+2026-11-25T00:05:58Z  Connected to Desktop Commander MCP
+2026-11-25T00:05:58Z  Desktop Commander MCP connection successful
+2026-11-25T00:05:58Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T00:05:58Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T00:05:58Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T00:05:58Z  Connected to Remote MCP
+2026-11-25T00:05:59Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T00:05:59Z  Loaded device ID: <id>
+2026-11-25T00:05:59Z  Found persisted session for device <id>
+2026-11-25T00:05:59Z  Session found in config, returning session
+2026-11-25T00:05:59Z  stopping MQTT transport
+2026-11-25T00:05:59Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T00:08:12Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T00:08:12Z  Shutting down device...
+2026-11-25T00:08:12Z  Shutdown initiated for device: <id>
+2026-11-25T00:08:12Z  Stopping heartbeat...
+2026-11-25T00:08:12Z  Calling stopHeartbeat()
+2026-11-25T00:08:12Z  Heartbeat stopped
+2026-11-25T00:08:12Z  Unsubscribing from channel...
+2026-11-25T00:08:12Z  Calling channel.unsubscribe()
+2026-11-25T00:08:12Z  stopping MQTT transport
+2026-11-25T00:08:12Z  Marking device offline...
+2026-11-25T00:08:12Z  Calling setOffline() with deviceId: <id>
+2026-11-25T00:08:12Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T00:08:12Z  No valid session for offline update
+2026-11-25T00:08:12Z  Session data missing or invalid
+2026-11-25T00:08:12Z  Draining pending config writes
+2026-11-25T00:08:12Z  Shutting down desktop integration...
+2026-11-25T00:08:12Z  Calling desktop.shutdown()
+2026-11-25T00:08:12Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T00:08:12Z  Closing MCP client...
+2026-11-25T00:08:12Z  Calling mcpClient.close() with timeout
+2026-11-25T00:08:12Z  MCP client closed
+2026-11-25T00:08:12Z  Closing MCP transport...
+2026-11-25T00:08:12Z  Calling mcpTransport.close() with timeout
+2026-11-25T00:08:12Z  MCP transport closed
+2026-11-25T00:08:12Z  Desktop Commander integration shutdown complete
+2026-11-25T00:08:12Z  Desktop integration shut down
+2026-11-25T00:08:12Z  Device shutdown complete
+2026-11-25T00:08:12Z  Shutdown sequence completed successfully
+2026-11-25T00:19:48Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T00:19:48Z  Platform: win32
+2026-11-25T00:19:48Z  Starting MCP Device...
+2026-11-25T00:19:48Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T00:19:48Z  Resolving MCP config...
+2026-11-25T00:19:48Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:19:48Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:19:48Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:19:48Z  MCP config: {
+2026-11-25T00:19:48Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T00:19:48Z  "args": [
+2026-11-25T00:19:48Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T00:19:48Z  ],
+2026-11-25T00:19:48Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T00:19:48Z  }
+2026-11-25T00:19:48Z  Creating StdioClientTransport
+2026-11-25T00:19:48Z  Creating MCP Client
+2026-11-25T00:19:48Z  Connecting MCP client to transport
+2026-11-25T00:19:49Z  Connected to Desktop Commander MCP
+2026-11-25T00:19:49Z  Desktop Commander MCP connection successful
+2026-11-25T00:19:49Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T00:19:49Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T00:19:51Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T00:19:51Z  Connected to Remote MCP
+2026-11-25T00:19:51Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T00:19:51Z  Config file does not exist (ENOENT)
+2026-11-25T00:19:51Z  Authenticating with Remote MCP server...
+2026-11-25T00:19:51Z  Connecting this computer...
+2026-11-25T00:19:51Z  Requesting device code...
+2026-11-25T00:19:51Z  Device code received
+2026-11-25T00:19:51Z  Please complete authentication:
+2026-11-25T00:19:51Z  1. Verify this device in your browser:
+2026-11-25T00:19:51Z  2. Make sure the code matches:
+2026-11-25T00:19:51Z  Code expires in 15 minutes.
+2026-11-25T00:19:51Z  Waiting for authorization...
+2026-11-25T00:20:10Z  Device verified
+2026-11-25T00:20:10Z  Device ID assigned: <id>
+2026-11-25T00:20:10Z  stopping MQTT transport
+2026-11-25T00:20:10Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T00:20:11Z  Session set successfully, user: <email>
+2026-11-25T00:20:11Z  Realtime socket authorized with current session JWT
+2026-11-25T00:20:11Z  Saving persisted config, persistSession: true
+2026-11-25T00:20:11Z  Creating config directory: ~\.desktop-commander-device
+2026-11-25T00:20:11Z  Config saved to: ~\.desktop-commander-device\device.json
+2026-11-25T00:20:11Z  Rollouts: { MQTT_TRANSPORT_ENABLED: false }
+2026-11-25T00:20:11Z  RemoteChannel.registerDevice() called, deviceId: <id>
+2026-11-25T00:20:11Z  Finding existing device...
+2026-11-25T00:20:36Z  Existing device found: true
+2026-11-25T00:20:36Z  Registering device as offline until the channel proves otherwise
+2026-11-25T00:21:02Z  Failed to update device: TypeError: fetch failed
+2026-11-25T00:21:02Z  Device startup failed: Failed to register device: TypeError: fetch failed
+2026-11-25T00:21:02Z  Shutting down device...
+2026-11-25T00:21:02Z  Shutdown initiated for device: <id>
+2026-11-25T00:21:02Z  Stopping heartbeat...
+2026-11-25T00:21:02Z  Calling stopHeartbeat()
+2026-11-25T00:21:02Z  Heartbeat stopped
+2026-11-25T00:21:02Z  Unsubscribing from channel...
+2026-11-25T00:21:02Z  Calling channel.unsubscribe()
+2026-11-25T00:21:02Z  stopping MQTT transport
+2026-11-25T00:21:02Z  Marking device offline...
+2026-11-25T00:21:02Z  Calling setOffline() with deviceId: <id>
+2026-11-25T00:21:02Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T00:21:02Z  Spawning blocking update script: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\remote-device\scripts\blocking-offline-update.js
+2026-11-25T00:21:02Z  Using node executable: D:\Program Files\nodejs\node.exe
+2026-11-25T00:21:03Z  spawnSync completed, exit code: 0 signal: null
+2026-11-25T00:21:03Z  Device marked as offline
+2026-11-25T00:21:03Z  Device marked as offline (blocking)
+2026-11-25T00:21:03Z  Draining pending config writes
+2026-11-25T00:21:03Z  Shutting down desktop integration...
+2026-11-25T00:21:03Z  Calling desktop.shutdown()
+2026-11-25T00:21:03Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T00:21:03Z  Closing MCP client...
+2026-11-25T00:21:03Z  Calling mcpClient.close() with timeout
+2026-11-25T00:21:03Z  MCP client closed
+2026-11-25T00:21:03Z  Closing MCP transport...
+2026-11-25T00:21:03Z  Calling mcpTransport.close() with timeout
+2026-11-25T00:21:03Z  MCP transport closed
+2026-11-25T00:21:03Z  Desktop Commander integration shutdown complete
+2026-11-25T00:21:03Z  Desktop integration shut down
+2026-11-25T00:21:03Z  Device shutdown complete
+2026-11-25T00:21:03Z  Shutdown sequence completed successfully
+2026-11-25T00:33:59Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T00:33:59Z  Platform: win32
+2026-11-25T00:33:59Z  Starting MCP Device...
+2026-11-25T00:33:59Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T00:33:59Z  Resolving MCP config...
+2026-11-25T00:33:59Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:33:59Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:33:59Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:33:59Z  MCP config: {
+2026-11-25T00:33:59Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T00:33:59Z  "args": [
+2026-11-25T00:33:59Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T00:33:59Z  ],
+2026-11-25T00:33:59Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T00:33:59Z  }
+2026-11-25T00:33:59Z  Creating StdioClientTransport
+2026-11-25T00:33:59Z  Creating MCP Client
+2026-11-25T00:33:59Z  Connecting MCP client to transport
+2026-11-25T00:34:00Z  Connected to Desktop Commander MCP
+2026-11-25T00:34:00Z  Desktop Commander MCP connection successful
+2026-11-25T00:34:00Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T00:34:00Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T00:34:01Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T00:34:01Z  Connected to Remote MCP
+2026-11-25T00:34:01Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T00:34:01Z  Loaded device ID: <id>
+2026-11-25T00:34:01Z  Found persisted session for device <id>
+2026-11-25T00:34:01Z  Session found in config, returning session
+2026-11-25T00:34:01Z  stopping MQTT transport
+2026-11-25T00:34:01Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T00:34:02Z  Session set successfully, user: <email>
+2026-11-25T00:34:02Z  Realtime socket authorized with current session JWT
+2026-11-25T00:34:02Z  Session restored
+2026-11-25T00:34:32Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T00:34:32Z  Shutting down device...
+2026-11-25T00:34:32Z  Shutdown initiated for device: <id>
+2026-11-25T00:34:32Z  Stopping heartbeat...
+2026-11-25T00:34:32Z  Calling stopHeartbeat()
+2026-11-25T00:34:32Z  Heartbeat stopped
+2026-11-25T00:34:32Z  Unsubscribing from channel...
+2026-11-25T00:34:32Z  Calling channel.unsubscribe()
+2026-11-25T00:34:32Z  stopping MQTT transport
+2026-11-25T00:34:32Z  Marking device offline...
+2026-11-25T00:34:32Z  Calling setOffline() with deviceId: <id>
+2026-11-25T00:34:32Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T00:34:32Z  Spawning blocking update script: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\remote-device\scripts\blocking-offline-update.js
+2026-11-25T00:34:32Z  Using node executable: D:\Program Files\nodejs\node.exe
+2026-11-25T00:34:32Z  spawnSync completed, exit code: 0 signal: null
+2026-11-25T00:34:32Z  Device marked as offline
+2026-11-25T00:34:32Z  Device marked as offline (blocking)
+2026-11-25T00:34:32Z  Draining pending config writes
+2026-11-25T00:34:32Z  Shutting down desktop integration...
+2026-11-25T00:34:32Z  Calling desktop.shutdown()
+2026-11-25T00:34:32Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T00:34:32Z  Closing MCP client...
+2026-11-25T00:34:32Z  Calling mcpClient.close() with timeout
+2026-11-25T00:34:32Z  MCP client closed
+2026-11-25T00:34:32Z  Closing MCP transport...
+2026-11-25T00:34:32Z  Calling mcpTransport.close() with timeout
+2026-11-25T00:34:32Z  MCP transport closed
+2026-11-25T00:34:32Z  Desktop Commander integration shutdown complete
+2026-11-25T00:34:32Z  Desktop integration shut down
+2026-11-25T00:34:32Z  Device shutdown complete
+2026-11-25T00:34:32Z  Shutdown sequence completed successfully
+2026-11-25T00:34:58Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T00:34:58Z  Platform: win32
+2026-11-25T00:34:58Z  Starting MCP Device...
+2026-11-25T00:34:58Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T00:34:58Z  Resolving MCP config...
+2026-11-25T00:34:58Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:34:58Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:34:58Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:34:58Z  MCP config: {
+2026-11-25T00:34:58Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T00:34:58Z  "args": [
+2026-11-25T00:34:58Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T00:34:58Z  ],
+2026-11-25T00:34:58Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T00:34:58Z  }
+2026-11-25T00:34:58Z  Creating StdioClientTransport
+2026-11-25T00:34:58Z  Creating MCP Client
+2026-11-25T00:34:58Z  Connecting MCP client to transport
+2026-11-25T00:34:59Z  Connected to Desktop Commander MCP
+2026-11-25T00:34:59Z  Desktop Commander MCP connection successful
+2026-11-25T00:34:59Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T00:34:59Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T00:35:01Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T00:35:01Z  Connected to Remote MCP
+2026-11-25T00:35:01Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T00:35:01Z  Loaded device ID: <id>
+2026-11-25T00:35:01Z  Found persisted session for device <id>
+2026-11-25T00:35:01Z  Session found in config, returning session
+2026-11-25T00:35:01Z  stopping MQTT transport
+2026-11-25T00:35:01Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T00:37:50Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T00:37:50Z  Shutting down device...
+2026-11-25T00:37:50Z  Shutdown initiated for device: <id>
+2026-11-25T00:37:50Z  Stopping heartbeat...
+2026-11-25T00:37:50Z  Calling stopHeartbeat()
+2026-11-25T00:37:50Z  Heartbeat stopped
+2026-11-25T00:37:50Z  Unsubscribing from channel...
+2026-11-25T00:37:50Z  Calling channel.unsubscribe()
+2026-11-25T00:37:50Z  stopping MQTT transport
+2026-11-25T00:37:50Z  Marking device offline...
+2026-11-25T00:37:50Z  Calling setOffline() with deviceId: <id>
+2026-11-25T00:37:50Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T00:37:50Z  No valid session for offline update
+2026-11-25T00:37:50Z  Session data missing or invalid
+2026-11-25T00:37:50Z  Draining pending config writes
+2026-11-25T00:37:50Z  Shutting down desktop integration...
+2026-11-25T00:37:50Z  Calling desktop.shutdown()
+2026-11-25T00:37:50Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T00:37:50Z  Closing MCP client...
+2026-11-25T00:37:50Z  Calling mcpClient.close() with timeout
+2026-11-25T00:37:50Z  MCP client closed
+2026-11-25T00:37:50Z  Closing MCP transport...
+2026-11-25T00:37:50Z  Calling mcpTransport.close() with timeout
+2026-11-25T00:37:50Z  MCP transport closed
+2026-11-25T00:37:50Z  Desktop Commander integration shutdown complete
+2026-11-25T00:37:50Z  Desktop integration shut down
+2026-11-25T00:37:50Z  Device shutdown complete
+2026-11-25T00:37:50Z  Shutdown sequence completed successfully
+2026-11-25T00:55:06Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T00:55:06Z  Platform: win32
+2026-11-25T00:55:06Z  Starting MCP Device...
+2026-11-25T00:55:06Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T00:55:06Z  Resolving MCP config...
+2026-11-25T00:55:06Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:55:06Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:55:06Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T00:55:06Z  MCP config: {
+2026-11-25T00:55:06Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T00:55:06Z  "args": [
+2026-11-25T00:55:06Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T00:55:06Z  ],
+2026-11-25T00:55:06Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T00:55:06Z  }
+2026-11-25T00:55:06Z  Creating StdioClientTransport
+2026-11-25T00:55:06Z  Creating MCP Client
+2026-11-25T00:55:06Z  Connecting MCP client to transport
+2026-11-25T00:55:07Z  Connected to Desktop Commander MCP
+2026-11-25T00:55:07Z  Desktop Commander MCP connection successful
+2026-11-25T00:55:07Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T00:55:07Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T00:55:09Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T00:55:09Z  Connected to Remote MCP
+2026-11-25T00:55:09Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T00:55:09Z  Loaded device ID: <id>
+2026-11-25T00:55:09Z  Found persisted session for device <id>
+2026-11-25T00:55:09Z  Session found in config, returning session
+2026-11-25T00:55:09Z  stopping MQTT transport
+2026-11-25T00:55:09Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T00:55:09Z  Session set successfully, user: <email>
+2026-11-25T00:55:09Z  Realtime socket authorized with current session JWT
+2026-11-25T00:55:09Z  Session restored
+2026-11-25T01:00:34Z  Failed to find device: TypeError: terminated
+2026-11-25T01:00:34Z  Device lookup failed (1/3); retrying...
+2026-11-25T01:00:40Z  Saving persisted config, persistSession: true
+2026-11-25T01:00:40Z  Creating config directory: ~\.desktop-commander-device
+2026-11-25T01:00:40Z  Config saved to: ~\.desktop-commander-device\device.json
+2026-11-25T01:00:42Z  Rollouts: { MQTT_TRANSPORT_ENABLED: false }
+2026-11-25T01:00:42Z  RemoteChannel.registerDevice() called, deviceId: <id>
+2026-11-25T01:00:42Z  Finding existing device...
+2026-11-25T01:02:06Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T01:02:06Z  Shutting down device...
+2026-11-25T01:02:06Z  Shutdown initiated for device: <id>
+2026-11-25T01:02:06Z  Stopping heartbeat...
+2026-11-25T01:02:06Z  Calling stopHeartbeat()
+2026-11-25T01:02:06Z  Heartbeat stopped
+2026-11-25T01:02:06Z  Unsubscribing from channel...
+2026-11-25T01:02:06Z  Calling channel.unsubscribe()
+2026-11-25T01:02:06Z  stopping MQTT transport
+2026-11-25T01:02:06Z  Marking device offline...
+2026-11-25T01:02:06Z  Calling setOffline() with deviceId: <id>
+2026-11-25T01:02:06Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T01:02:06Z  Spawning blocking update script: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\remote-device\scripts\blocking-offline-update.js
+2026-11-25T01:02:06Z  Using node executable: D:\Program Files\nodejs\node.exe
+2026-11-25T01:02:06Z  spawnSync completed, exit code: 0 signal: null
+2026-11-25T01:02:06Z  Device marked as offline
+2026-11-25T01:02:06Z  Device marked as offline (blocking)
+2026-11-25T01:02:06Z  Draining pending config writes
+2026-11-25T01:02:06Z  Shutting down desktop integration...
+2026-11-25T01:02:06Z  Calling desktop.shutdown()
+2026-11-25T01:02:06Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T01:02:06Z  Closing MCP client...
+2026-11-25T01:02:06Z  Calling mcpClient.close() with timeout
+2026-11-25T01:02:06Z  MCP client closed
+2026-11-25T01:02:06Z  Closing MCP transport...
+2026-11-25T01:02:06Z  Calling mcpTransport.close() with timeout
+2026-11-25T01:02:06Z  MCP transport closed
+2026-11-25T01:02:06Z  Desktop Commander integration shutdown complete
+2026-11-25T01:02:06Z  Desktop integration shut down
+2026-11-25T01:02:06Z  Device shutdown complete
+2026-11-25T01:02:06Z  Shutdown sequence completed successfully
+2026-11-25T01:02:23Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T01:02:23Z  Platform: win32
+2026-11-25T01:02:23Z  Starting MCP Device...
+2026-11-25T01:02:23Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T01:02:23Z  Resolving MCP config...
+2026-11-25T01:02:23Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:02:23Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:02:23Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:02:23Z  MCP config: {
+2026-11-25T01:02:23Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T01:02:23Z  "args": [
+2026-11-25T01:02:23Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T01:02:23Z  ],
+2026-11-25T01:02:23Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T01:02:23Z  }
+2026-11-25T01:02:23Z  Creating StdioClientTransport
+2026-11-25T01:02:23Z  Creating MCP Client
+2026-11-25T01:02:23Z  Connecting MCP client to transport
+2026-11-25T01:02:24Z  Connected to Desktop Commander MCP
+2026-11-25T01:02:24Z  Desktop Commander MCP connection successful
+2026-11-25T01:02:24Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T01:02:24Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T01:02:25Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T01:02:25Z  Connected to Remote MCP
+2026-11-25T01:02:25Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T01:02:25Z  Loaded device ID: <id>
+2026-11-25T01:02:25Z  Found persisted session for device <id>
+2026-11-25T01:02:25Z  Session found in config, returning session
+2026-11-25T01:02:25Z  stopping MQTT transport
+2026-11-25T01:02:25Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T01:02:26Z  Session set successfully, user: <email>
+2026-11-25T01:02:26Z  Realtime socket authorized with current session JWT
+2026-11-25T01:02:26Z  Session restored
+2026-11-25T01:03:40Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T01:03:40Z  Shutting down device...
+2026-11-25T01:03:40Z  Shutdown initiated for device: <id>
+2026-11-25T01:03:40Z  Stopping heartbeat...
+2026-11-25T01:03:40Z  Calling stopHeartbeat()
+2026-11-25T01:03:40Z  Heartbeat stopped
+2026-11-25T01:03:40Z  Unsubscribing from channel...
+2026-11-25T01:03:40Z  Calling channel.unsubscribe()
+2026-11-25T01:03:40Z  stopping MQTT transport
+2026-11-25T01:03:40Z  Marking device offline...
+2026-11-25T01:03:40Z  Calling setOffline() with deviceId: <id>
+2026-11-25T01:03:40Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T01:03:41Z  Spawning blocking update script: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\remote-device\scripts\blocking-offline-update.js
+2026-11-25T01:03:41Z  Using node executable: D:\Program Files\nodejs\node.exe
+2026-11-25T01:03:41Z  spawnSync completed, exit code: 0 signal: null
+2026-11-25T01:03:41Z  Device marked as offline
+2026-11-25T01:03:41Z  Device marked as offline (blocking)
+2026-11-25T01:03:41Z  Draining pending config writes
+2026-11-25T01:03:41Z  Shutting down desktop integration...
+2026-11-25T01:03:41Z  Calling desktop.shutdown()
+2026-11-25T01:03:41Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T01:03:41Z  Closing MCP client...
+2026-11-25T01:03:41Z  Calling mcpClient.close() with timeout
+2026-11-25T01:03:41Z  MCP client closed
+2026-11-25T01:03:41Z  Closing MCP transport...
+2026-11-25T01:03:41Z  Calling mcpTransport.close() with timeout
+2026-11-25T01:03:41Z  MCP transport closed
+2026-11-25T01:03:41Z  Desktop Commander integration shutdown complete
+2026-11-25T01:03:41Z  Desktop integration shut down
+2026-11-25T01:03:41Z  Device shutdown complete
+2026-11-25T01:03:41Z  Shutdown sequence completed successfully
+2026-11-25T01:04:19Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T01:04:19Z  Platform: win32
+2026-11-25T01:04:19Z  Starting MCP Device...
+2026-11-25T01:04:19Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T01:04:19Z  Resolving MCP config...
+2026-11-25T01:04:19Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:04:19Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:04:19Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:04:19Z  MCP config: {
+2026-11-25T01:04:19Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T01:04:19Z  "args": [
+2026-11-25T01:04:19Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T01:04:19Z  ],
+2026-11-25T01:04:19Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T01:04:19Z  }
+2026-11-25T01:04:19Z  Creating StdioClientTransport
+2026-11-25T01:04:19Z  Creating MCP Client
+2026-11-25T01:04:19Z  Connecting MCP client to transport
+2026-11-25T01:04:20Z  Connected to Desktop Commander MCP
+2026-11-25T01:04:20Z  Desktop Commander MCP connection successful
+2026-11-25T01:04:20Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T01:04:20Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T01:04:21Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T01:04:21Z  Connected to Remote MCP
+2026-11-25T01:04:21Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T01:04:21Z  Loaded device ID: <id>
+2026-11-25T01:04:21Z  Found persisted session for device <id>
+2026-11-25T01:04:21Z  Session found in config, returning session
+2026-11-25T01:04:21Z  stopping MQTT transport
+2026-11-25T01:04:21Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T01:04:22Z  Session set successfully, user: <email>
+2026-11-25T01:04:22Z  Realtime socket authorized with current session JWT
+2026-11-25T01:04:22Z  Session restored
+2026-11-25T01:05:38Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T01:05:38Z  Shutting down device...
+2026-11-25T01:05:38Z  Shutdown initiated for device: <id>
+2026-11-25T01:05:38Z  Stopping heartbeat...
+2026-11-25T01:05:38Z  Calling stopHeartbeat()
+2026-11-25T01:05:38Z  Heartbeat stopped
+2026-11-25T01:05:38Z  Unsubscribing from channel...
+2026-11-25T01:05:38Z  Calling channel.unsubscribe()
+2026-11-25T01:05:38Z  stopping MQTT transport
+2026-11-25T01:05:38Z  Marking device offline...
+2026-11-25T01:05:38Z  Calling setOffline() with deviceId: <id>
+2026-11-25T01:05:38Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T01:05:38Z  Spawning blocking update script: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\remote-device\scripts\blocking-offline-update.js
+2026-11-25T01:05:38Z  Using node executable: D:\Program Files\nodejs\node.exe
+2026-11-25T01:05:39Z  spawnSync completed, exit code: 0 signal: null
+2026-11-25T01:05:39Z  Device marked as offline
+2026-11-25T01:05:39Z  Device marked as offline (blocking)
+2026-11-25T01:05:39Z  Draining pending config writes
+2026-11-25T01:05:39Z  Shutting down desktop integration...
+2026-11-25T01:05:39Z  Calling desktop.shutdown()
+2026-11-25T01:05:39Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T01:05:39Z  Closing MCP client...
+2026-11-25T01:05:39Z  Calling mcpClient.close() with timeout
+2026-11-25T01:05:39Z  MCP client closed
+2026-11-25T01:05:39Z  Closing MCP transport...
+2026-11-25T01:05:39Z  Calling mcpTransport.close() with timeout
+2026-11-25T01:05:39Z  MCP transport closed
+2026-11-25T01:05:39Z  Desktop Commander integration shutdown complete
+2026-11-25T01:05:39Z  Desktop integration shut down
+2026-11-25T01:05:39Z  Device shutdown complete
+2026-11-25T01:05:39Z  Shutdown sequence completed successfully
+2026-11-25T01:06:05Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T01:06:05Z  Platform: win32
+2026-11-25T01:06:05Z  Starting MCP Device...
+2026-11-25T01:06:05Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T01:06:05Z  Resolving MCP config...
+2026-11-25T01:06:05Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:06:05Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:06:05Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:06:05Z  MCP config: {
+2026-11-25T01:06:05Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T01:06:05Z  "args": [
+2026-11-25T01:06:05Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T01:06:05Z  ],
+2026-11-25T01:06:05Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T01:06:05Z  }
+2026-11-25T01:06:05Z  Creating StdioClientTransport
+2026-11-25T01:06:05Z  Creating MCP Client
+2026-11-25T01:06:05Z  Connecting MCP client to transport
+2026-11-25T01:06:06Z  Connected to Desktop Commander MCP
+2026-11-25T01:06:06Z  Desktop Commander MCP connection successful
+2026-11-25T01:06:06Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T01:06:06Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T01:06:07Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T01:06:07Z  Connected to Remote MCP
+2026-11-25T01:06:07Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T01:06:07Z  Loaded device ID: <id>
+2026-11-25T01:06:07Z  Found persisted session for device <id>
+2026-11-25T01:06:07Z  Session found in config, returning session
+2026-11-25T01:06:07Z  stopping MQTT transport
+2026-11-25T01:06:07Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T01:06:40Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T01:06:40Z  Shutting down device...
+2026-11-25T01:06:40Z  Shutdown initiated for device: <id>
+2026-11-25T01:06:40Z  Stopping heartbeat...
+2026-11-25T01:06:40Z  Calling stopHeartbeat()
+2026-11-25T01:06:40Z  Heartbeat stopped
+2026-11-25T01:06:40Z  Unsubscribing from channel...
+2026-11-25T01:06:40Z  Calling channel.unsubscribe()
+2026-11-25T01:06:40Z  stopping MQTT transport
+2026-11-25T01:06:40Z  Marking device offline...
+2026-11-25T01:06:40Z  Calling setOffline() with deviceId: <id>
+2026-11-25T01:06:40Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T01:06:40Z  No valid session for offline update
+2026-11-25T01:06:40Z  Session data missing or invalid
+2026-11-25T01:06:40Z  Draining pending config writes
+2026-11-25T01:06:40Z  Shutting down desktop integration...
+2026-11-25T01:06:40Z  Calling desktop.shutdown()
+2026-11-25T01:06:40Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T01:06:40Z  Closing MCP client...
+2026-11-25T01:06:40Z  Calling mcpClient.close() with timeout
+2026-11-25T01:06:40Z  MCP client closed
+2026-11-25T01:06:40Z  Closing MCP transport...
+2026-11-25T01:06:40Z  Calling mcpTransport.close() with timeout
+2026-11-25T01:06:40Z  MCP transport closed
+2026-11-25T01:06:40Z  Desktop Commander integration shutdown complete
+2026-11-25T01:06:40Z  Desktop integration shut down
+2026-11-25T01:06:40Z  Device shutdown complete
+2026-11-25T01:06:40Z  Shutdown sequence completed successfully
+2026-11-25T01:07:02Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T01:07:02Z  Platform: win32
+2026-11-25T01:07:02Z  Starting MCP Device...
+2026-11-25T01:07:02Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T01:07:02Z  Resolving MCP config...
+2026-11-25T01:07:02Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:07:02Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:07:02Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:07:02Z  MCP config: {
+2026-11-25T01:07:02Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T01:07:02Z  "args": [
+2026-11-25T01:07:02Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T01:07:02Z  ],
+2026-11-25T01:07:02Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T01:07:02Z  }
+2026-11-25T01:07:02Z  Creating StdioClientTransport
+2026-11-25T01:07:02Z  Creating MCP Client
+2026-11-25T01:07:02Z  Connecting MCP client to transport
+2026-11-25T01:07:02Z  Connected to Desktop Commander MCP
+2026-11-25T01:07:02Z  Desktop Commander MCP connection successful
+2026-11-25T01:07:02Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T01:07:02Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T01:07:03Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T01:07:03Z  Connected to Remote MCP
+2026-11-25T01:07:03Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T01:07:03Z  Loaded device ID: <id>
+2026-11-25T01:07:03Z  Found persisted session for device <id>
+2026-11-25T01:07:03Z  Session found in config, returning session
+2026-11-25T01:07:03Z  stopping MQTT transport
+2026-11-25T01:07:03Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T01:07:04Z  Session set successfully, user: <email>
+2026-11-25T01:07:04Z  Realtime socket authorized with current session JWT
+2026-11-25T01:07:04Z  Session restored
+2026-11-25T01:07:24Z  Saving persisted config, persistSession: true
+2026-11-25T01:07:24Z  Creating config directory: ~\.desktop-commander-device
+2026-11-25T01:07:24Z  Config saved to: ~\.desktop-commander-device\device.json
+2026-11-25T01:07:25Z  Rollouts: { MQTT_TRANSPORT_ENABLED: false }
+2026-11-25T01:07:25Z  RemoteChannel.registerDevice() called, deviceId: <id>
+2026-11-25T01:07:25Z  Finding existing device...
+2026-11-25T01:08:09Z  Existing device found: true
+2026-11-25T01:08:09Z  Registering device as offline until the channel proves otherwise
+2026-11-25T01:08:20Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T01:08:20Z  Shutting down device...
+2026-11-25T01:08:20Z  Shutdown initiated for device: <id>
+2026-11-25T01:08:20Z  Stopping heartbeat...
+2026-11-25T01:08:20Z  Calling stopHeartbeat()
+2026-11-25T01:08:20Z  Heartbeat stopped
+2026-11-25T01:08:20Z  Unsubscribing from channel...
+2026-11-25T01:08:20Z  Calling channel.unsubscribe()
+2026-11-25T01:08:20Z  stopping MQTT transport
+2026-11-25T01:08:20Z  Marking device offline...
+2026-11-25T01:08:20Z  Calling setOffline() with deviceId: <id>
+2026-11-25T01:08:20Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T01:08:20Z  Spawning blocking update script: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\remote-device\scripts\blocking-offline-update.js
+2026-11-25T01:08:20Z  Using node executable: D:\Program Files\nodejs\node.exe
+2026-11-25T01:08:21Z  spawnSync completed, exit code: 0 signal: null
+2026-11-25T01:08:21Z  Device marked as offline
+2026-11-25T01:08:21Z  Device marked as offline (blocking)
+2026-11-25T01:08:21Z  Draining pending config writes
+2026-11-25T01:08:21Z  Shutting down desktop integration...
+2026-11-25T01:08:21Z  Calling desktop.shutdown()
+2026-11-25T01:08:21Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T01:08:21Z  Closing MCP client...
+2026-11-25T01:08:21Z  Calling mcpClient.close() with timeout
+2026-11-25T01:08:21Z  MCP client closed
+2026-11-25T01:08:21Z  Closing MCP transport...
+2026-11-25T01:08:21Z  Calling mcpTransport.close() with timeout
+2026-11-25T01:08:21Z  MCP transport closed
+2026-11-25T01:08:21Z  Desktop Commander integration shutdown complete
+2026-11-25T01:08:21Z  Desktop integration shut down
+2026-11-25T01:08:21Z  Device shutdown complete
+2026-11-25T01:08:21Z  Shutdown sequence completed successfully
+2026-11-25T01:08:45Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T01:08:45Z  Platform: win32
+2026-11-25T01:08:45Z  Starting MCP Device...
+2026-11-25T01:08:45Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T01:08:45Z  Resolving MCP config...
+2026-11-25T01:08:45Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:08:45Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:08:45Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:08:45Z  MCP config: {
+2026-11-25T01:08:45Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T01:08:45Z  "args": [
+2026-11-25T01:08:45Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T01:08:45Z  ],
+2026-11-25T01:08:45Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T01:08:45Z  }
+2026-11-25T01:08:45Z  Creating StdioClientTransport
+2026-11-25T01:08:45Z  Creating MCP Client
+2026-11-25T01:08:45Z  Connecting MCP client to transport
+2026-11-25T01:08:46Z  Connected to Desktop Commander MCP
+2026-11-25T01:08:46Z  Desktop Commander MCP connection successful
+2026-11-25T01:08:46Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T01:08:46Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T01:08:47Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T01:08:47Z  Connected to Remote MCP
+2026-11-25T01:08:47Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T01:08:47Z  Loaded device ID: <id>
+2026-11-25T01:08:47Z  Found persisted session for device <id>
+2026-11-25T01:08:47Z  Session found in config, returning session
+2026-11-25T01:08:47Z  stopping MQTT transport
+2026-11-25T01:08:47Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T01:08:48Z  [ERROR] Failed to set session: Auth session missing!
+2026-11-25T01:08:48Z  Persisted session invalid: Auth session missing!
+2026-11-25T01:08:48Z  Authenticating with Remote MCP server...
+2026-11-25T01:08:48Z  Connecting this computer...
+2026-11-25T01:08:48Z  Requesting device code...
+2026-11-25T01:08:48Z  Device code received
+2026-11-25T01:08:48Z  Please complete authentication:
+2026-11-25T01:08:48Z  1. Verify this device in your browser:
+2026-11-25T01:08:48Z  2. Make sure the code matches:
+2026-11-25T01:08:48Z  Code expires in 15 minutes.
+2026-11-25T01:08:48Z  Waiting for authorization...
+2026-11-25T01:09:00Z  Device verified
+2026-11-25T01:09:00Z  Device ID changed: <id> → <id>
+2026-11-25T01:09:00Z  stopping MQTT transport
+2026-11-25T01:09:00Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T01:11:17Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T01:11:17Z  Shutting down device...
+2026-11-25T01:11:17Z  Shutdown initiated for device: <id>
+2026-11-25T01:11:17Z  Stopping heartbeat...
+2026-11-25T01:11:17Z  Calling stopHeartbeat()
+2026-11-25T01:11:17Z  Heartbeat stopped
+2026-11-25T01:11:17Z  Unsubscribing from channel...
+2026-11-25T01:11:17Z  Calling channel.unsubscribe()
+2026-11-25T01:11:17Z  stopping MQTT transport
+2026-11-25T01:11:17Z  Marking device offline...
+2026-11-25T01:11:17Z  Calling setOffline() with deviceId: <id>
+2026-11-25T01:11:17Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T01:11:17Z  No valid session for offline update
+2026-11-25T01:11:17Z  Session data missing or invalid
+2026-11-25T01:11:17Z  Draining pending config writes
+2026-11-25T01:11:17Z  Shutting down desktop integration...
+2026-11-25T01:11:17Z  Calling desktop.shutdown()
+2026-11-25T01:11:17Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T01:11:17Z  Closing MCP client...
+2026-11-25T01:11:17Z  Calling mcpClient.close() with timeout
+2026-11-25T01:11:17Z  MCP client closed
+2026-11-25T01:11:17Z  Closing MCP transport...
+2026-11-25T01:11:17Z  Calling mcpTransport.close() with timeout
+2026-11-25T01:11:17Z  MCP transport closed
+2026-11-25T01:11:17Z  Desktop Commander integration shutdown complete
+2026-11-25T01:11:17Z  Desktop integration shut down
+2026-11-25T01:11:17Z  Device shutdown complete
+2026-11-25T01:11:17Z  Shutdown sequence completed successfully
+2026-11-25T01:11:48Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T01:11:48Z  Platform: win32
+2026-11-25T01:11:48Z  Starting MCP Device...
+2026-11-25T01:11:48Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T01:11:48Z  Resolving MCP config...
+2026-11-25T01:11:48Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:11:48Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:11:48Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:11:48Z  MCP config: {
+2026-11-25T01:11:48Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T01:11:48Z  "args": [
+2026-11-25T01:11:48Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T01:11:48Z  ],
+2026-11-25T01:11:48Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T01:11:48Z  }
+2026-11-25T01:11:48Z  Creating StdioClientTransport
+2026-11-25T01:11:48Z  Creating MCP Client
+2026-11-25T01:11:48Z  Connecting MCP client to transport
+2026-11-25T01:11:48Z  Connected to Desktop Commander MCP
+2026-11-25T01:11:48Z  Desktop Commander MCP connection successful
+2026-11-25T01:11:48Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T01:11:48Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T01:11:50Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T01:11:50Z  Connected to Remote MCP
+2026-11-25T01:11:50Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T01:11:50Z  Loaded device ID: <id>
+2026-11-25T01:11:50Z  Found persisted session for device <id>
+2026-11-25T01:11:50Z  Session found in config, returning session
+2026-11-25T01:11:50Z  stopping MQTT transport
+2026-11-25T01:11:50Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T01:11:51Z  [ERROR] Failed to set session: Auth session missing!
+2026-11-25T01:11:51Z  Persisted session invalid: Auth session missing!
+2026-11-25T01:11:51Z  Authenticating with Remote MCP server...
+2026-11-25T01:11:51Z  Connecting this computer...
+2026-11-25T01:11:51Z  Requesting device code...
+2026-11-25T01:11:51Z  Device code received
+2026-11-25T01:11:51Z  Please complete authentication:
+2026-11-25T01:11:51Z  1. Verify this device in your browser:
+2026-11-25T01:11:51Z  2. Make sure the code matches:
+2026-11-25T01:11:51Z  Code expires in 15 minutes.
+2026-11-25T01:11:51Z  Waiting for authorization...
+2026-11-25T01:12:05Z  Device verified
+2026-11-25T01:12:05Z  Device ID changed: <id> → <id>
+2026-11-25T01:12:05Z  stopping MQTT transport
+2026-11-25T01:12:05Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T01:12:05Z  Session set successfully, user: <email>
+2026-11-25T01:12:05Z  Realtime socket authorized with current session JWT
+2026-11-25T01:12:05Z  Saving persisted config, persistSession: true
+2026-11-25T01:12:05Z  Creating config directory: ~\.desktop-commander-device
+2026-11-25T01:12:06Z  Config saved to: ~\.desktop-commander-device\device.json
+2026-11-25T01:12:06Z  Rollouts: { MQTT_TRANSPORT_ENABLED: false }
+2026-11-25T01:12:06Z  RemoteChannel.registerDevice() called, deviceId: <id>
+2026-11-25T01:12:06Z  Finding existing device...
+2026-11-25T01:12:27Z  Existing device found: true
+2026-11-25T01:12:27Z  Registering device as offline until the channel proves otherwise
+2026-11-25T01:12:58Z  Failed to update device: TypeError: fetch failed
+2026-11-25T01:12:58Z  Device startup failed: Failed to register device: TypeError: fetch failed
+2026-11-25T01:12:58Z  Shutting down device...
+2026-11-25T01:12:58Z  Shutdown initiated for device: <id>
+2026-11-25T01:12:58Z  Stopping heartbeat...
+2026-11-25T01:12:58Z  Calling stopHeartbeat()
+2026-11-25T01:12:58Z  Heartbeat stopped
+2026-11-25T01:12:58Z  Unsubscribing from channel...
+2026-11-25T01:12:58Z  Calling channel.unsubscribe()
+2026-11-25T01:12:58Z  stopping MQTT transport
+2026-11-25T01:12:58Z  Marking device offline...
+2026-11-25T01:12:58Z  Calling setOffline() with deviceId: <id>
+2026-11-25T01:12:58Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T01:12:58Z  Spawning blocking update script: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\remote-device\scripts\blocking-offline-update.js
+2026-11-25T01:12:58Z  Using node executable: D:\Program Files\nodejs\node.exe
+2026-11-25T01:12:59Z  spawnSync completed, exit code: 0 signal: null
+2026-11-25T01:12:59Z  Device marked as offline
+2026-11-25T01:12:59Z  Device marked as offline (blocking)
+2026-11-25T01:12:59Z  Draining pending config writes
+2026-11-25T01:12:59Z  Shutting down desktop integration...
+2026-11-25T01:12:59Z  Calling desktop.shutdown()
+2026-11-25T01:12:59Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T01:12:59Z  Closing MCP client...
+2026-11-25T01:12:59Z  Calling mcpClient.close() with timeout
+2026-11-25T01:12:59Z  MCP client closed
+2026-11-25T01:12:59Z  Closing MCP transport...
+2026-11-25T01:12:59Z  Calling mcpTransport.close() with timeout
+2026-11-25T01:12:59Z  MCP transport closed
+2026-11-25T01:12:59Z  Desktop Commander integration shutdown complete
+2026-11-25T01:12:59Z  Desktop integration shut down
+2026-11-25T01:12:59Z  Device shutdown complete
+2026-11-25T01:12:59Z  Shutdown sequence completed successfully
+2026-11-25T01:17:59Z  Remote started (Desktop Commander 0.3.4, Node 24.22.2, win32)
+2026-11-25T01:17:59Z  Platform: win32
+2026-11-25T01:17:59Z  Starting MCP Device...
+2026-11-25T01:17:59Z  DesktopCommanderIntegration.initialize() called
+2026-11-25T01:17:59Z  Resolving MCP config...
+2026-11-25T01:17:59Z  Checking local dev path: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:17:59Z  Found local MCP server at: ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:17:59Z  Connecting to Local Desktop Commander MCP using: D:\Program Files\nodejs\node.exe ~\AppData\Local\npm-cache\_npx\4b4c857f6efdfb61\node_modules\@wonderwhy-er\desktop-commander\dist\index.js
+2026-11-25T01:17:59Z  MCP config: {
+2026-11-25T01:17:59Z  "command": "D:\\Program Files\\nodejs\\node.exe",
+2026-11-25T01:17:59Z  "args": [
+2026-11-25T01:17:59Z  "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist\\index.js"
+2026-11-25T01:17:59Z  ],
+2026-11-25T01:17:59Z  "cwd": "~\\AppData\\Local\\npm-cache\\_npx\\4b4c857f6efdfb61\\node_modules\\@wonderwhy-er\\desktop-commander\\dist"
+2026-11-25T01:17:59Z  }
+2026-11-25T01:17:59Z  Creating StdioClientTransport
+2026-11-25T01:17:59Z  Creating MCP Client
+2026-11-25T01:17:59Z  Connecting MCP client to transport
+2026-11-25T01:18:00Z  Connected to Desktop Commander MCP
+2026-11-25T01:18:00Z  Desktop Commander MCP connection successful
+2026-11-25T01:18:00Z  Connecting to Remote MCP https://mcp.desktopcommander.app
+2026-11-25T01:18:00Z  Fetching Supabase config from: https://mcp.desktopcommander.app/api/mcp-info
+2026-11-25T01:18:01Z  Validated Supabase backend: https://olvbkozcufcbptfogatw.supabase.co
+2026-11-25T01:18:01Z  Connected to Remote MCP
+2026-11-25T01:18:01Z  Loading persisted config from: ~\.desktop-commander-device\device.json
+2026-11-25T01:18:01Z  Loaded device ID: <id>
+2026-11-25T01:18:01Z  Found persisted session for device <id>
+2026-11-25T01:18:01Z  Session found in config, returning session
+2026-11-25T01:18:01Z  stopping MQTT transport
+2026-11-25T01:18:01Z  RemoteChannel.setSession() called, has refresh_token: <redacted>
+2026-11-25T01:18:37Z  SIGINT received, initiating graceful shutdown...
+2026-11-25T01:18:37Z  Shutting down device...
+2026-11-25T01:18:37Z  Shutdown initiated for device: <id>
+2026-11-25T01:18:37Z  Stopping heartbeat...
+2026-11-25T01:18:37Z  Calling stopHeartbeat()
+2026-11-25T01:18:37Z  Heartbeat stopped
+2026-11-25T01:18:37Z  Unsubscribing from channel...
+2026-11-25T01:18:37Z  Calling channel.unsubscribe()
+2026-11-25T01:18:37Z  stopping MQTT transport
+2026-11-25T01:18:37Z  Marking device offline...
+2026-11-25T01:18:37Z  Calling setOffline() with deviceId: <id>
+2026-11-25T01:18:37Z  setOffline() initiating blocking update for device: <id>
+2026-11-25T01:18:37Z  No valid session for offline update
+2026-11-25T01:18:37Z  Session data missing or invalid
+2026-11-25T01:18:37Z  Draining pending config writes
+2026-11-25T01:18:37Z  Shutting down desktop integration...
+2026-11-25T01:18:37Z  Calling desktop.shutdown()
+2026-11-25T01:18:37Z  DesktopCommanderIntegration.shutdown() called
+2026-11-25T01:18:37Z  Closing MCP client...
+2026-11-25T01:18:37Z  Calling mcpClient.close() with timeout
+2026-11-25T01:18:37Z  MCP client closed
+2026-11-25T01:18:37Z  Closing MCP transport...
+2026-11-25T01:18:37Z  Calling mcpTransport.close() with timeout
+2026-11-25T01:18:37Z  MCP transport closed
+2026-11-25T01:18:37Z  Desktop Commander integration shutdown complete
+2026-11-25T01:18:37Z  Desktop integration shut down
+2026-11-25T01:18:37Z  Device shutdown complete
+2026-11-25T01:18:37Z  Shutdown sequence completed successfully
