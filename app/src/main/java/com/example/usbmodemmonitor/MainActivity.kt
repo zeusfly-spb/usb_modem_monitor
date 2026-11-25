@@ -110,6 +110,17 @@ fun MonitorScreen(
     configured: Boolean,
     rndis: Boolean
 ) {
+    var rxBytes by remember { mutableStateOf(-1L) }
+    var txBytes by remember { mutableStateOf(-1L) }
+
+    LaunchedEffect(Unit) {
+        while (true) {
+            rxBytes = TrafficStats.getIfaceRxBytes("rndis0")
+            txBytes = TrafficStats.getIfaceTxBytes("rndis0")
+
+            delay(1000)
+        }
+    }
     val status = when {
         !connected -> "USB отключён"
         !configured -> "USB подключён, настройка..."
